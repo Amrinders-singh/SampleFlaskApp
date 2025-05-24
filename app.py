@@ -7,6 +7,7 @@ def create_app():
     @app.route('/')
     def home():
         x=11233
+        print(x)
         print("inside home function fddfg")
         return 'Hurray hell of heven'
 
