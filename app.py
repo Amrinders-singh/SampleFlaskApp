@@ -6,7 +6,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        print("inside home function")
+        print("inside home function fddfg")
         return 'Hurray'
 
     @app.route('/test')
