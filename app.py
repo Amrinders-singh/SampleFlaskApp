@@ -8,8 +8,8 @@ def create_app():
     def home():
         x = 11233
         print(x)
-        print("inside home function fddfg")
-        return 'Hurray hell of heaven, Lets come together and dive into music of sole connecting sound....' 
+        print("inside home function")
+        return 'Hurray hell of heaven, Lets come together and dive into music of sole connecting sound' 
 
     @app.route('/test')
     def test():
